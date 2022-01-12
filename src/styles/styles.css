@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 100px;
+    background-color: beige;
+    margin-bottom: 16px;
+}
+
+.cards{
+    /* Display */
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 16px;
+}
+
+.cards_item{
+
+}
+
+.cards_item img{
+    width: 100%;
+}
