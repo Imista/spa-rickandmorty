@@ -33,6 +33,13 @@ header{
     }
 }
 
+.cards_item a{
+    /* Text */
+    text-decoration: none;
+    color: black;
+}
+
+
 .cards_item img{
     width: 100%;
     border-top-left-radius: 20px;
@@ -49,3 +56,4 @@ header{
     /* Text */
     font-size: 18px;
 }
+
