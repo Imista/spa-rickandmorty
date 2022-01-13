@@ -1,6 +1,8 @@
 import Home from "./pages/Home.js";
+import Character from "./pages/Character.js";
 
 const content = document.querySelector('.cards');
+const info = document.querySelector('.info');
 
 const run = async () => {
     //Update info
@@ -17,6 +19,12 @@ const run = async () => {
     // }
 }
 
+const setInfo = async () => {
+    const data = await Character();
+    info.classList.toggle('noShow');
+    info.innerHTML = data;
+}
+
 
 // //Observer
 // let observer = new IntersectionObserver(entry => {
@@ -28,3 +36,5 @@ const run = async () => {
 
 const button = document.querySelector('.More');
 button.addEventListener('click',run)
+const infoButton = document.querySelector('.Info');
+infoButton.addEventListener('click',setInfo)

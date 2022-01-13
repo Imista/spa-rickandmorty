@@ -57,3 +57,43 @@ header{
     font-size: 18px;
 }
 
+/* Info */
+.info.noShow{
+    display: none;
+}
+
+.info{
+    /* Box */
+    margin: 5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 20px 36px -28px rgba(148,148,148,0.75);
+    /* Display */
+    display: flex;
+
+}
+
+.info-card{
+    /* Box */
+    width: 300px;
+    margin-right: 24px;
+    /* Transition  */
+    transition: all 0.5s 0s ease;
+    /* Text */
+    text-align: center;
+}
+
+.info-card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+}
+
+.info-data span{
+    font-weight: lighter;
+}
+
+/* @media (hover){
+    .info-card:hover{
+        transform: scale(1.1);
+    }
+} */
