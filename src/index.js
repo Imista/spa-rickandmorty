@@ -10,15 +10,6 @@ const run = async () => {
     //Update info
     const characters = await Home();
     content.innerHTML = characters.join('');
-   
-    //Show info
-    // const items = document.querySelectorAll('.cards_item');
-    // for(let i = 0; i < items.length;i++){
-    //     const item = items[i];
-    //     item.addEventListener('click',() => {
-    //         console.log(i+1);
-    //     })
-    // }
 }
 
 const setInfo = async () => {

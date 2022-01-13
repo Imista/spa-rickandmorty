@@ -3,11 +3,37 @@ body{
     font-family: 'B612', sans-serif;
 }
 
+/* Header */
+
 header{
-    height: 100px;
-    background-color: beige;
+    padding: 12px 80px;
     margin-bottom: 16px;
 }
+
+.header-data{
+    /* Display */
+    display: flex;
+    justify-content: space-between;
+    /* Box */
+    border-bottom: black 4px solid;
+}
+
+.home a, .about a{
+    /* Text */
+    text-decoration: none;
+    color: black;
+    /* Display */
+    display: flex;
+    align-items: center;
+}
+
+.home img{
+    width: 50px;
+}
+
+
+
+/* Cards */
 
 .cards{
     /* Display */
