@@ -58,13 +58,10 @@ header{
 }
 
 /* Info */
-.info.noShow{
-    display: none;
-}
 
 .info{
     /* Box */
-    margin: 5%;
+    margin: 20px 40px;
     box-sizing: border-box;
     border-radius: 20px;
     box-shadow: 0px 20px 36px -28px rgba(148,148,148,0.75);

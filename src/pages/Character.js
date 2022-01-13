@@ -1,11 +1,13 @@
 import getData from "../utils/getData.js";
+import getHash from "../utils/getHash.js";
 
 const Character = async () => {
-    const character = await getData(1);
+    const id = getHash();
+    const character = await getData(id);
 
     const view = `
     <article class="info-card">
-        <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="${character.name}">
+        <img src="${character.image}" alt="${character.name}">
         <h2>${character.name}</h2>
     </article>
     <article class="info-data">

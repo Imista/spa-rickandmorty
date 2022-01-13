@@ -1,5 +1,7 @@
 import Home from "./pages/Home.js";
 import Character from "./pages/Character.js";
+import getHash from "./utils/getHash.js";
+
 
 const content = document.querySelector('.cards');
 const info = document.querySelector('.info');
@@ -21,7 +23,6 @@ const run = async () => {
 
 const setInfo = async () => {
     const data = await Character();
-    info.classList.toggle('noShow');
     info.innerHTML = data;
 }
 
