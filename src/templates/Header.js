@@ -2,7 +2,7 @@ const Header = () => {
     const view = `
     <div class="header-data">
         <h1 class="home">
-            <a href="/">
+            <a href="">
                 <img src="../src/resources/Rick.svg" alt="Rick">Rick&Morty<img src="../src/resources/Morty.svg" alt="Morty">
             </a>
         </h1>

@@ -12,7 +12,8 @@ const Footer = () => {
                 <div class="social-img"><img src="../src/resources/linkedin.svg" alt="Linkedin"></div>
             </a>
         </div>
-        <div class="info">Single page aplication</div>
+        <div class="footer-about"><a href="#/about">About</a></div>
+        <div class="footer-info">Single page aplication</div>
     </div>`
     return view;
 }
