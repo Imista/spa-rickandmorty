@@ -8,7 +8,7 @@ async function* getCharacters () {
     const max = await getMax();
     //Cicle
     while(true){
-        for (let i = 1; i <= 24; i++) {
+        for (let i = 1; i <= 12; i++) {
             if(cont <= max){
                 const character = await getData(cont+i);
                 data.push(`
